@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: aliceblue;
@@ -11,56 +11,59 @@
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "width" 100;
+        "width" 100;
 }
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
 }
 
-.dark{
+.dark {
     color: rgb(97, 97, 97);
- }
-.dark2{
+}
+
+.dark2 {
     color: rgb(94, 92, 92);
     font-size: 20px;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     max-width: 1140px;
     justify-content: space-between;
     margin: 20px auto 90px;
 }
-.nav ul li{
-     list-style: none;
+
+.nav ul li {
+    list-style: none;
 }
-.nav-right ul{
+
+.nav-right ul {
     display: flex;
-    gap:30px;
+    gap: 30px;
     align-items: center;
     cursor: pointer;
 }
 
-.cart{
+.cart {
     display: flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
 }
-.cart-image{
-      height: 30px;
-      width: auto;
+
+.cart-image {
+    height: 30px;
+    width: auto;
 }
 
-/* Banner */
 
-.banner{
+.banner {
     max-width: 1140px;
     height: auto;
     display: flex;
@@ -68,59 +71,205 @@
     justify-content: space-between;
     margin: 50px auto 90px;
 }
-.banner, .banner-img{
+
+.banner,
+.banner-img {
     background-color: #f1f7f9;
 }
-.description{  
+
+.description {
     max-width: 570px;
     height: auto;
     padding-left: 5px;
 }
-.d1{
+
+.d1 {
     font-size: 40px;
     font-weight: 900;
     padding-bottom: 20px;
 }
-.bann-des-col{
+
+.bann-des-col {
     color: #E95A08;
 }
-.banner-img{
+
+.banner-img {
     height: 355px;
     width: 570px;
 }
 
-.plant{
+.plant {
     margin: 50px auto 130px;
     height: auto;
     max-width: 1140px;
 }
-.plant-des{
+
+.plant-des {
     justify-content: center;
     text-align: center;
     padding-bottom: 10px;
 }
+
 .btn-col {
-  background-color: orangered;
-  font-weight: bold;
-  color: #FFFFFF;
-  padding: 10px 90px;
-  border: none;
-  margin: auto;
+    background-color: orangered;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 90px;
+    border: none;
+    margin: auto;
 }
+
 .btn-col:hover {
-    background-color: #80853e;
-  }
-.image-text{
+    background-color: #fdbb07;
+}
+
+.image-text {
     text-align: center;
 }
-.plant-image{
+
+.plant-image {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
-.image-text{
+
+.image-text {
     width: 100%;
 }
-.image-text img{
+
+.image-text img {
     width: 100%;
+}
+
+.challenge {
+    display: flex;
+    margin: 100px auto 110px;
+    max-width: 1140px;
+    height: auto;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ch-des h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ch-img {
+    position: relative;
+}
+
+.ch-img1 {
+    z-index: -10;
+    width: 540px;
+    height: 600px;
+}
+
+.trusted_badge {
+    width: 250px;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    right: -80px;
+    top: -100px;
+    background-blend-mode: lighten;
+}
+
+.ch-des ul li {
+    padding: 10px;
+}
+
+.deal {
+    max-width: 1140px;
+    margin: 100px auto;
+    padding-top: 0px 20px;
+    font-family: sans-serif;
+}
+
+.deal-des {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deal-des h3 {
+    font-size: 2rem;
+}
+
+.deal-des p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+
+.deal-discount {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.left-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.bloom,
+.ana,
+.zabo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    height: 250px;
+}
+
+.bloom {
+    height: 250px;
+    background-image: url('../images/deal-bloom.png');
+
+}
+
+.ana {
+    background-image: url('../images/deal-ana.png');
+    height: 250px;
+}
+
+.zabo {
+    background-image: url('../images/deal-zabo.png');
+    height: calc(250px * 2 + 20px);
+}
+
+.text-box h3 {
+    background: rgba(82, 77, 77, 0.4);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.text-box {
+    margin-bottom: 10px;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.29);
+}
+
+.text-box a {
+    display: flex;
+    padding: 6px 12px;
+    color: #76c6e3;
+    justify-content: center;
+    font-weight: 900;
+    border-radius: 5px;
+    background: rgba(82, 77, 77, 0.4);
+}
+
+.text-box a:hover {
+    background: #fcfce8;
 }
