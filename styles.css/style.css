@@ -89,3 +89,38 @@
     width: 570px;
 }
 
+.plant{
+    margin: 50px auto 130px;
+    height: auto;
+    max-width: 1140px;
+}
+.plant-des{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btn-col {
+  background-color: orangered;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 90px;
+  border: none;
+  margin: auto;
+}
+.btn-col:hover {
+    background-color: #80853e;
+  }
+.image-text{
+    text-align: center;
+}
+.plant-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.image-text{
+    width: 100%;
+}
+.image-text img{
+    width: 100%;
+}
