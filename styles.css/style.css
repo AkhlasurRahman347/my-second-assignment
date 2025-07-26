@@ -273,3 +273,65 @@
 .text-box a:hover {
     background: #fcfce8;
 }
+
+.subscribe-to-join {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 830px;
+}
+
+.subscribe-section {
+    background-image: url('../images/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe-content {
+    max-width: 830px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* optional dark overlay */
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.subscribe-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.email-box {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.email-box input {
+    flex: 1;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+}
+
+.email-box button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.email-box button:hover {
+    background-color: #80853e;
+}
